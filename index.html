@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <div class="navbar">
+        <div class="left-nav">
+            Get the App
+        </div>
+        <div class="right-nav">
+            <ul class="menu">
+                <li class="menu-items">Investor Relations</li>
+                <li class="menu-items">Add Restaurant</li>
+                <li class="menu-items">Login in</li>
+                <li class="menu-items">Sign up</li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-content">
+        <img class='header-content-logo'src="./Asset/zomato.avif" alt="Zomato"/>
+        <h1 id="header-content-quote">Discover the best food & drinks in Chennai</h1>
+    </div>
+</div> 
+<div class="card-section">
+    <div class="card">
+        <img src="./Asset/orderonline.avif" alt="orderonline"/>
+        <div class="card-title">Order Online</div>
+        <p class="card-description">Stay home and order to your doorstep</p>
+    </div>
+    <div class="card">
+        <img src="./Asset/dining.avif" alt="dinning"/>
+        <div class="card-title">Dinning</div>
+        <p class="card-description">View the city's favourite dining venues</p>
+    </div>
+    <div class="card">
+        <img src="./Asset/nightlife.avif" alt="nightlife"/>
+        <div class="card-title">Nightlife and Clubs</div>
+        <p class="card-description">Explore the city’s top nightlife outlets</p>
+    </div>
+</div>
+
+<container>
+<div class="collection-section">
+    <h2 class="collection-section-title">Collections</h2>
+    <h6 class="collection-section-description">Explore curated lists of top restaurants, cafes, pubs, and bars in Chennai, based on trends</h6>
+    <div class="collection-section-card">
+                <div class="collection-imagecard-description">
+                    <img class="collection-imagecard" src="./Asset/collection-cardone.avif"/>
+                    <h3>Newly Opened places</h3>
+                    <p>14 Places</p>
+                    <img class="arrow" src="./Asset/arrow.png">
+                </div>
+                <div class="collection-imagecard-description">
+                    <img class="collection-imagecard" src="./Asset/seaview.avif"/>
+                    <h3>Newly Opened places</h3>
+                    <p>14 Places</p>
+                    <img class="arrow" src="./Asset/arrow.png">
+                </div>
+                <div class="collection-imagecard-description">
+                    <img class="collection-imagecard" src="./Asset/instaworthy.avif"/>
+                    <h3>Newly Opened places</h3>
+                    <p>14 Places</p>
+                    <img class="arrow" src="./Asset/arrow.png">
+                </div>
+                <div class="collection-imagecard-description">
+                    <img class="collection-imagecard" src="./Asset/Buffet.avif"/>
+                    <h3>Newly Opened places</h3>
+                    <p>14 Places</p>
+                    <img class="arrow" src="./Asset/arrow.png">
+                </div>
+             
+    </div>
+</div>
+
+</container>
+<div class="download-section">
+    <div class="download-section-image">
+        <img class="download-image"src="./Asset/download.avif" alt="dowloadimage" >
+    </div>
+    <div class="download-section-content">
+        <h2 class="download-section-title">Get the Zomato app</h2>
+        <p class="download-section-descrpition">We will send you a link, open it on your phone to download the app</p>
+        <form>
+        <input type="radio" name="contactmethod" id="download-section-radio-input1">
+        <label for="Email" class="download-section-radio">E Mail</label>
+        <input type="radio" name="contactmethod" id="download-section-radio-input2">
+        <label for="Phone" class="download-section-radio">Phone</label>
+        <br/>
+        <input type="text" name="Enter your details" placeholder="Email" class="download-form-email">
+        <button class="download-section-btn">Share App Link</button>
+        </form>
+        <p class="sectiondownloadapp">Download app from</p>
+        <img class="sectiondownloadimg" src="./Asset/googleplay.webp">
+        <img class="sectiondownloadimg" src="./Asset/applestore.webp">
+    </div>
+</div>
+<div class="accordin-section">
+    <h1>Explore options near me</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             Popular Cuisine Near Me
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             Popular Restaurant Type Near me
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Top Restaurant Chains
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                 Cities We Deliver To
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+      </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="footer-section">
+   <div class="footer-content-header">
+            <img src="./Asset/b40b97e677bc7b2ca77c58c61db266fe1603954218.avif">
+     </div>
+    <div class="footer-content">
+        <div class="footer-content-part1">
+            <h3 class="footer-content-header-parts">ABOUT ZOMATO</h3>
+            <ul>
+               <li><a class="content-align"href="">Who We Are</a></li>
+               <li><a class="content-align"href="">Blog</a></li>
+               <li><a class="content-align"href="">Work With Us</a></li>
+               <li><a class="content-align" href="">Investor Realtions</a></li>
+               <li><a class="content-align"href="">Report Fraud</a></li>
+               <li><a class="content-align"href="">Press Kit</a></li>
+               <li><a class="content-align"href="">Contact us</a></li>
+            </ul>
+       </div>
+       <div class="footer-content-part2">
+            <h3 class="footer-content-header-parts">ZOMVERSE</h3>
+            <ul>
+                <li><a class="content-align" href="">Zomato</a></li>
+                <li><a class="content-align" href="">Blinkit</a></li>
+                <li><a  class="content-align"href="">District</a></li>
+                <li><a class="content-align"href="">Feeding India</a></li>
+                <li><a class="content-align"href="">Hyperpure</a></li>
+                <li><a class="content-align"href="">Zomato Live</a></li>
+                <li><a class="content-align"href="">Zomaland</a></li>
+            </ul>
+        </div>
+        <div class="footer-content-part3">
+            <h3 class="footer-content-header-parts">FOR RESTURANTS</h3>
+            <ul>
+                <li><a class="content-align" href="">Partner With Us</a></li>
+                <li><a class="content-align" href="">Apps For You</a></li>
+            </ul>
+        </div>
+        <div class="footer-content-part4">
+            <h3 class="footer-content-header-parts">LEARN MORE</h3>
+            <ul>
+                <li><a class="content-align" href="">Pirvacy</a></li>
+                <li><a class="content-align" href="">Security</a></li>
+                <li><a class="content-align" href="">Terms</a></li>
+            </ul>
+        </div>
+        <div class="footer-content-part5">
+            <h3 class="footer-content-header-parts">SOCIAL LINKS</h3>
+            <ul>
+                <!-- <li><a class="content-align" href="">Pirvacy</a></li> -->
+                <li><a class="content-align" href=""><img class="footer-apps" src="./Asset/applestore.webp"></a></li>
+                <li><a class="content-align" href=""><img class="footer-apps" src="./Asset/googleplay.webp"></a></li>
+            </ul>
+          
+        </div>
+       
+    </div>
+    <hr style="margin-top: 80px;">
+    <p class="footer-content-end">
+        By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy, and Content Policies. 
+        All trademarks are properties of their respective owners. 2008-
+        <span id="current-year"></span> © Zomato™ Ltd. All rights reserved.
+      </p>
+      
+    </div>
+
+<!-- FAQ -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
